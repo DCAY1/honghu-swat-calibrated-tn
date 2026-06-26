@@ -49,6 +49,16 @@ honghu_nps/        Data loading and hydraulic proxy utilities
 
 See [PAPER_ARTIFACT_MAP.md](PAPER_ARTIFACT_MAP.md) for figure/table-to-file mapping.
 
+## Publish to GitHub
+
+If https://github.com/qingfenglangyue/honghu-swat-calibrated-tn shows **404**, the remote repository has not been created or `main` has not been pushed yet. From this directory on a machine that can reach GitHub:
+
+```bash
+./push_to_github.sh
+```
+
+Or manually: create an empty public repo named `honghu-swat-calibrated-tn` at https://github.com/new , then run `git push -u origin main`.
+
 ## Citation
 
 If you use this repository, please cite the associated manuscript and the CMFD meteorological forcing dataset (He et al., 2020).
