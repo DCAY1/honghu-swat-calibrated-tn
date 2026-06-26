@@ -14,6 +14,8 @@ Mapping between the final Chinese manuscript, scripts, and repository files.
 | 表1 | SWAT 水文参数率定 | Static CSV | `outputs/tables/table1_swat_calibration.csv` |
 | 表2 | 三类情景测试集指标 | `scripts/run_nps_prior_value_experiment.py` | `outputs/processed/reconstruction_dataset.csv` → `outputs/tables/table3_swat_prior_evidence_chain.csv` |
 
+Repository: https://github.com/DCAY1/honghu-swat-calibrated-tn
+
 ## Expected Table 2 values (test set)
 
 | Scenario | RMSE | MAE | NSE |

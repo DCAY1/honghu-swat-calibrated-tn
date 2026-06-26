@@ -51,7 +51,7 @@ See [PAPER_ARTIFACT_MAP.md](PAPER_ARTIFACT_MAP.md) for figure/table-to-file mapp
 
 ## Publish to GitHub
 
-If https://github.com/qingfenglangyue/honghu-swat-calibrated-tn shows **404**, the remote repository has not been created or `main` has not been pushed yet. From this directory on a machine that can reach GitHub:
+If https://github.com/DCAY1/honghu-swat-calibrated-tn shows **404**, the remote repository has not been created or `main` has not been pushed yet. From this directory on a machine that can reach GitHub:
 
 ```bash
 ./push_to_github.sh

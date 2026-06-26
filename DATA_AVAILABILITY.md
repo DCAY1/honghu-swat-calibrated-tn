@@ -1,6 +1,6 @@
 # Data and Code Availability
 
-The datasets supporting the Honghu gated shallow-lake TN prediction study are openly available in the `data/` and `outputs/processed/` directories of this repository (https://github.com/qingfenglangyue/honghu-swat-calibrated-tn). The code used to reproduce the paper figures and tables can be accessed from GitHub: https://github.com/qingfenglangyue/honghu-swat-calibrated-tn.
+The datasets supporting the Honghu gated shallow-lake TN prediction study are openly available in the `data/` and `outputs/processed/` directories of this repository (https://github.com/DCAY1/honghu-swat-calibrated-tn). The code used to reproduce the paper figures and tables can be accessed from GitHub: https://github.com/DCAY1/honghu-swat-calibrated-tn.
 
 ## 中文说明
 

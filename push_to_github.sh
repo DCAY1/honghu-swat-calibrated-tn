@@ -4,7 +4,7 @@ set -euo pipefail
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$REPO_DIR"
 
-OWNER="qingfenglangyue"
+OWNER="DCAY1"
 REPO_NAME="honghu-swat-calibrated-tn"
 REMOTE="https://github.com/${OWNER}/${REPO_NAME}.git"
 
@@ -19,6 +19,9 @@ if command -v gh >/dev/null 2>&1; then
     echo "请先登录 GitHub CLI: gh auth login"
     gh auth login -h github.com -p https -w
   fi
+  LOGIN="$(gh api user -q .login)"
+  OWNER="${LOGIN}"
+  REMOTE="https://github.com/${OWNER}/${REPO_NAME}.git"
   if ! gh repo view "${OWNER}/${REPO_NAME}" >/dev/null 2>&1; then
     echo "==> 创建远程仓库 ${OWNER}/${REPO_NAME} ..."
     gh repo create "${REPO_NAME}" --public --source=. --remote=origin --push
