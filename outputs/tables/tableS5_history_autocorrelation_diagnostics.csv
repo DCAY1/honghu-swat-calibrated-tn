@@ -1,0 +1,2 @@
+split,n,history_target_pearson_r,target_mean_mg_l,persistence_RMSE_mg_l,persistence_MAE_mg_l,persistence_NSE,persistence_relative_RMSE_pct,baseline_definition
+test,50,0.8883097780271667,1.8961666666666666,0.1416313916866988,0.10076666666666663,0.7722591115341884,7.469353521316629,pred_tn = tn_history_feature

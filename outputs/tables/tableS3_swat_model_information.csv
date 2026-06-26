@@ -1,0 +1,9 @@
+项目,内容,来源
+SWAT 建模单元,48 个子流域，285 个 HRU,主文 2.3
+HRU 阈值,土地利用 5%、土壤 10%、坡度 10%,主文 2.3
+运行起始时间,2014-01-01,主文 2.3
+径流率定期,2016 年，福田寺断面,主文 2.3
+率定方法,SUFI-2，17 个水文参数，300 次全局寻优,主文 2.3
+日尺度率定指标,"KGE = 0.76, R² = 0.60, NSE = 0.50, PBIAS = 2.8%",主文 2.3
+关键空间集合,"DEFAULT_KEY_SUB_IDS=(1,2,3,4,5); DEFAULT_KEY_RCH_IDS=(1,2,3,4,5)",honghu_moe_tn_daily/pipeline.py
+L_corr 权重,训练期 0-7 d 滞后正 Pearson 相关权重归一化；无正相关时回退至 L_key,candidate_prior_weight_qc.csv
