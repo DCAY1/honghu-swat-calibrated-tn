@@ -1,6 +1,6 @@
 # 数据说明
 
-本目录包含论文《融合经响应校准 SWAT 农业面源过程信息的闸控浅水湖泊总氮预测》复现所需的最小原始数据集（对应正文 2.2 节）。
+本目录包含论文 *Response-Calibrated SWAT Process Information for Daily Total Nitrogen Prediction in a Gate-controlled Shallow Lake* 复现所需的最小原始数据集（对应正文 2.2 节）。
 
 ## 目录结构
 

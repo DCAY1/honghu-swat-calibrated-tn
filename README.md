@@ -1,6 +1,6 @@
 # Response-Calibrated SWAT Process Information for Daily Total Nitrogen Prediction in a Gate-controlled Shallow Lake
 
-Data and code for **融合经响应校准 SWAT 农业面源过程信息的闸控浅水湖泊总氮预测**.
+Data and code for **Response-Calibrated SWAT Process Information for Daily Total Nitrogen Prediction in a Gate-controlled Shallow Lake**.
 
 Daily TN prediction at the Honghu drainage gate using standardized ridge regression and response-calibrated SWAT agricultural non-point-source process information (2023).
 
